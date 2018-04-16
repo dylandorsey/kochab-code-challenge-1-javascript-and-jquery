@@ -2,6 +2,8 @@ console.log('in js');
 
 $(document).ready(onReady);
 
+generateButtonClickCounter = 0;
+
 function onReady() {
     console.log('in jq');
     $('main').append('<button id="btn-generate">Generate</button>');
@@ -10,18 +12,25 @@ function onReady() {
 }
 
 function clickHandler() {
-    appendDiv;
-    console.log('button clicked');
-    // $('#btn-generate').on('click', appendP);
+    appendDiv();
+    generateButtonClickCounter++;
+    console.log(generateButtonClickCounter);
 }
 
 function appendDiv() {
     console.log('appendDiv function called');
     $('main').append('<div id="buttonClickCounter" class="generated-div"></div>');
+    appendP();
 }
 
-// function appendP() {
-
-// }
+function appendP() {
+    $('#buttonClickCounter').empty();
+    $('#buttonClickCounter').append(`
+        <p>
+        ${generateButtonClickCounter}
+        </p>
+    `);
+    console.log('button clicks: ' + buttonClickCounter);
+}
 
 

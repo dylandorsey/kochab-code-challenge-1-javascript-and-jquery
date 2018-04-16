@@ -4,7 +4,7 @@
 
 [x] Using jQuery, append a <div> element when you click the button.
 
-[ ] Inside the <div> element you created in the previous step, create a <p> element that shows how many times you have clicked the button from the first step.
+[x] Inside the <div> element you created in the previous step, create a <p> element that shows how many times you have clicked the button from the first step.
 
 [ ] Inside the <div> element you created in step two, append two <button> elements. The text of the two buttons should read "Swap" and "Delete".
 
