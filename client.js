@@ -21,6 +21,9 @@ function appendDiv() {
     console.log('appendDiv function called');
     $('main').append('<div id="buttonClickCounter" class="generated-div"></div>');
     appendP();
+    buttonClickCounterDiv = $('#buttonClickCounter');
+    buttonClickCounterDiv.append('<button id="btn-swap">Swap</button>');
+    buttonClickCounterDiv.append('<button id="btn-delete">Delete</button>');
 }
 
 function appendP() {
