@@ -10,8 +10,8 @@
 
 [X] In a CSS file, any <div> created using the "Generate" button should have a Red background-color.
 
-[ ] Clicking a "Swap" <button> should change its parent background-color from Red to Yellow.
+[x] Clicking a "Swap" <button> should change its parent background-color from Red to Yellow.
 
-[ ] Clicking the "Swap" <button> again should turn the color back to Red.
+[x] Clicking the "Swap" <button> again should turn the color back to Red.
 
-[ ] Clicking a "Delete" <button> should remove its parent <div> container (and all of its contents).
+[X] Clicking a "Delete" <button> should remove its parent <div> container (and all of its contents).
